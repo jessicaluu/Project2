@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.riddle {
+  background-image: url('treasure-riddle.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 600px;
+  text-align: center;
+  padding: 40px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.question {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
+
+h3 {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+  font-stretch: normal;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #66c2ff;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: right;
+}
+
+input[type=submit] {
+  background-color: #a37029;
+  padding: 5px 10px;
+  margin: 2px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 300px;
+}
+
+input[type=text] {
+  width: 300px;
+  text-align: center;
+  height: 25px;
+}
